@@ -32,6 +32,7 @@ interface Issue {
     }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-redeclare
 const Repository: React.FC = () => {
     const [repository, setRepository] = useState<Repository | null>(null);
     const [issues, setIssues] = useState<Issue[]>([]);
